@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact | Ansh Srivastava</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <a href="index.html" class="logo">
+        ANSH<span>.DS</span>
+    </a>
+
+    <button class="menu-toggle">☰</button>
+
+    <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="journey.html">Journey</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="achievements.html">Achievements</a>
+        <a href="contact.html" class="active">Contact</a>
+    </nav>
+
+</header>
+
+
+<main>
+
+<section class="page-hero">
+
+    <p class="eyebrow">06 / CONTACT</p>
+
+    <h1>
+        Let's start a<br>
+        <span>conversation.</span>
+    </h1>
+
+    <p>
+        Connect with me through my social platforms.
+    </p>
+
+</section>
+
+
+<section class="section">
+
+    <div class="contact-grid">
+
+
+        <!-- SOCIALS -->
+
+        <div class="glass-card reveal">
+
+            <p class="eyebrow">
+                FIND ME ONLINE
+            </p>
+
+            <h2>
+                Connect<br>
+                <span>with me.</span>
+            </h2>
+
+
+            <a
+                href="https://www.instagram.com/ansh_srivastava913/"
+                target="_blank"
+                class="contact-social">
+
+                <div class="contact-icon">
+                    ◎
+                </div>
+
+                <div>
+                    <small>INSTAGRAM</small>
+                    <strong>@ansh_srivastava913</strong>
+                </div>
+
+                <span>↗</span>
+
+            </a>
+
+
+            <a
+                href="https://wa.me/917307348297"
+                target="_blank"
+                class="contact-social">
+
+                <div class="contact-icon">
+                    ◉
+                </div>
+
+                <div>
+                    <small>WHATSAPP</small>
+                    <strong>+91 7307348297</strong>
+                </div>
+
+                <span>↗</span>
+
+            </a>
+
+
+            <!-- PUT YOUR LINKEDIN URL HERE -->
+
+            <a
+                href="#"
+                class="contact-social">
+
+                <div class="contact-icon">
+                    in
+                </div>
+
+                <div>
+                    <small>LINKEDIN</small>
+                    <strong>Add LinkedIn</strong>
+                </div>
+
+                <span>↗</span>
+
+            </a>
+
+        </div>
+
+
+        <form class="glass-card contact-form reveal" id="contact-form">
+    <p class="eyebrow">SEND A MESSAGE</p>
+
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <input type="text" name="subject" placeholder="Subject">
+    <textarea name="message" rows="7" placeholder="Your Message" required></textarea>
+
+    <!-- honeypot (spam bots ke liye) -->
+    <input type="text" name="website" tabindex="-1" autocomplete="off"
+           style="position:absolute;left:-9999px" aria-hidden="true">
+
+    <button type="submit" class="primary-button">Send Message →</button>
+    <small id="form-status"></small>
+</form>
+    </div>
+
+</section>
+
+</main>
+
+
+<footer>
+
+    <div class="footer-logo">
+        ANSH<span>.DS</span>
+    </div>
+
+    <p>Data Science × AI × Curiosity</p>
+
+    <p>© <span data-current-year></span> Ansh Srivastava</p>
+
+</footer>
+
+</body>
+</html>
